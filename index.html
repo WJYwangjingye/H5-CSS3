@@ -168,14 +168,14 @@
         pag2.style.color="white";
 
     }
-
-
-
-
-
-
-
-
+    pag1.onclick=function(){
+        bepag.style.display="none";
+        firstpag.style.display="block";
+        pag2.style.background="hsl(0,5%,85%)";
+        pag1.style.background="orange";
+        pag2.style.color="black";
+        pag1.style.color="white";
+    }
 
 
 
@@ -238,13 +238,6 @@
     window.onload=function(){
         getsave();
     }
-
-
-
-
-
-
-
 
     var player=document.getElementById("player");
     var mymusic=document.getElementById("mymusic");
