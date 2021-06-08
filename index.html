@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="navleft">
+            <img src="./images/3.jpg">
+            <span>首页</span>
+            <span>榜单</span>
+            <span>歌手</span>
+            <span>下载酷我客户端</span>
+        </div>
+        <div class="navcenter">
+            <div>
+                <img src="./images/2.jpg">
+                <span>美女秀</span>
+            </div>
+            <div>
+                <img src="./images/2.jpg">
+                <span>酷我耳机</span>
+            </div>
+            <div>
+                <img src="./images/2.jpg">
+                <span>VIP会员</span>
+            </div>
+            <div>
+                <img src="./images/2.jpg">
+                <span>听</span>
+            </div>
+        </div>
+        <div class="navright">
+            <div>更多服务</div>
+            <div>登录</div>
+            <div>^</div>
+        </div>
+        <div class="search">
+            <p>找到好音乐</p>
+        </div>
+    </div>
+    <div class="cen">
+        <div class="lyric">
+            <h3>喜羊羊</h3>
+            <p>专辑：&nbsp;&nbsp;<span>儿歌大全</span>&nbsp;&nbsp;&nbsp;歌手：<span>&nbsp;华语群星</span> &nbsp;&nbsp;分享
+                <img src="./images/7.jpg">
+                 <span>评论</span></p>
+            <p>上传时间：2015-10-02&nbsp;&nbsp;歌曲来源：民大相思湖网球社</p>
+            <hr/>
+            <p>白云因为我变得柔软</p>
+            <p>别看我只是一只羊</p>
+            <p>羊儿的聪明难以想象</p>
+            <p>天再高心情 一样奔放</p>
+            <p>每天都追赶太阳</p>
+            <span>有什么难题 去牵绊我 都不会去心伤</span>
+            <p>有什么危险 在我面前 也不会去慌乱</p>
+            <p>就算有狼群 把我追捕 也当作游戏一场</p>
+            <p>在什么时间 都爱开心 笑容都会飞翔</p>
+            <p>就算会摔倒 站得起来 永远不会沮丧</p>
+            <p>在所有天气 拥有叫人大笑的力量</p>
+            <p>虽然我只是羊</p>
+        </div>
+        <div class="song">
+            <img src="./images/1.jpg">
+            <div id="player">
+                <audio autoplay="autoplay" id="mymusic">
+                    <source src="./images/音乐.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div id="probar">
+                <div id="wp_bufbar">
+                    <div id="wp_pro"></div>
+                    <a href="##" id="wp_btn" style="left:0"></a>
+                </div>
+            </div>
+            <p id="time">00:00</p>
+            <div id="sound"></div>
+            <div class="download">
+                <div></div>
+                <span>免费下载这首歌</span>
+            </div>
+            <div class="figure">
+                <img src="./images/郭子仪.jpg"/>
+                <div>
+                    <p class="figurename">郭子仪——H5班</p>
+                    <img src="./images/gif.gif"/>
+                    <p class="songname">喜羊羊与灰太狼</p>
+                    <a>去现场></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="bottomone">
+            <span class="comment">评论</span>
+            <span class="count">1703条评论</span>
+            <hr>
+            <img src="./images/郭子仪.jpg"/>
+            <input id="text" type="text" placeholder="分享你的音乐见解">
+            <span class="already">已输入0个字</span>
+            <button id="btn">评论</button>
+        </div>
+        <div class="bottomtwo">
+            <span class="wondcom">精彩评论</span>
+            <hr>
+            <div class="firstpag">
+                <div class="one">
+                    <img  class="head" src="./images/郭子仪.jpg"/>
+                        <span class="name">郭子仪</span>
+                    <div class="content"></div>
+                    <p class="timer"></p>
+                    <span class="share"><a>分享</a></span>
+                    <p class="del">删除</p>
+                    <span class="counter">163</span>
+                    <img class="like" src="./images/bg2.jpg"/>
+                    <span class="replay"><a>回复</a></span>
+                </div>
+                <div class="one">
+                    <img class="head" src="./images/5.jpg"/>
+                    <span class="name">Forget</span>
+                    <div class="content"></div>
+                    <p class="timer"></p>
+                    <span class="share"><a>分享</a></span>
+                    <span class="counter">149</span>
+                    <img class="like" src="./images/bg2.jpg"/>
+                    <span class="replay"><a>回复</a></span>
+                </div>
+                <div class="one">
+                    <img  class="head" src="./images/5.jpg"/>
+                    <span class="name">亚里士多德</span>
+                    <div class="content"></div>
+                    <p class="timer"></p>
+                    <span class="share"><a>分享</a></span>
+                    <span class="counter">106</span>
+                    <img class="like" src="./images/bg2.jpg"/>
+                    <span class="replay"><a>回复</a></span>
+                </div>
+            </div>
+            <div class="bepag">
+            </div>
+        </div>
+        <div class="bottomthree">
+            <p><</p>
+            <p id="pag1">1</p>
+            <p id="pag2">2</p>
+            <p>3</p>
+            <p>...</p>
+            <p>17</p>
+            <p>></p>
+        </div>
+    </div>
+        
+</body>
+<script>
+    var pag1=document.getElementById("pag1");
+    var pag2=document.getElementById("pag2");
+    var firstpag=document.getElementsByClassName("firstpag")[0];
+    pag2.onclick=function(){
+        bepag.style.display="block";
+        firstpag.style.display="none";
+        pag1.style.background="hsl(0,5%,85%)";
+        pag2.style.background="orange";
+        pag1.style.color="black";
+        pag2.style.color="white";
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    var text=document.getElementById("text");
+    var btn=document.getElementById("btn");
+    btn.onclick=function(){
+        var textcontent=text.value;
+        if(textcontent==""){
+            alert("评论不能为空");
+        }else{
+            var date=new Date();
+            var month=date.getMonth()+1;
+            month=month>=10?month:"0"+month;
+            var day=date.getDate()>=10?date.getDate():"0"+date.getDate();
+            var hour=date.getHours()>=10?date.getHours():"0"+date.getHours();
+            var minute=date.getMinutes()>=10?date.getMinutes():"0"+date.getMinutes();
+            var second=date.getSeconds()>=10?date.getSeconds():"0"+date.getSeconds();
+            var clock=date.getFullYear()+"-"+month+"-"+day+" "+hour+":"+minute+":"+second;
+            save(textcontent,clock);
+            getsave();
+        }
+    }
+    function save(textcontent,clock){
+        var textlist=localStorage["textlist"];
+        if(textlist==""||textlist==undefined ||textlist==null){
+            localStorage["textlist"]="[]";
+        }
+        textlist=JSON.parse(localStorage["textlist"]);
+        var obj={content:textcontent,time:clock};
+        textlist.push(obj);
+        localStorage["textlist"]=JSON.stringify(textlist);
+    }
+
+    var content=document.getElementsByClassName("content");
+    var timer=document.getElementsByClassName("timer");
+    var bepag=document.getElementsByClassName("bepag")[0];
+    function getsave(){
+        for(var i=0;i<content.length;i++){
+            content[i].innerHTML="";
+            timer[i].innerHTML="";
+        }
+        var textlist=localStorage["textlist"];
+        textlist=JSON.parse(textlist);
+        for(var i=0;i<3;i++){
+            content[i].innerHTML=textlist[i]["content"];
+            timer[i].innerHTML=textlist[i]["time"];
+        }
+        if(textlist.length>3){
+            bepag.innerHTML="";
+            for(var i=3;i<textlist.length;i++){
+                var node=document.createElement("div");
+                node.setAttribute("class","two");
+                node.innerHTML="<div class='content2'>"+textlist[i]["content"]+"</div>"+
+                "<p class='timer2'>"+textlist[i]["time"]+"</p>";
+                bepag.appendChild(node);
+                
+            }
+        }
+    }
+    window.onload=function(){
+        getsave();
+    }
+
+
+
+
+
+
+
+
+    var player=document.getElementById("player");
+    var mymusic=document.getElementById("mymusic");
+    var num=1;
+    var pro=document.getElementById("wp_pro");
+    var btn=document.getElementById("wp_btn");
+    var time=document.getElementById("time");
+    var sound=document.getElementById("sound");
+    var count=1;
+    player.onclick=function(){
+        var sumtime=parseInt(mymusic.duration);
+        var id;
+        if(num%2==1){
+            mymusic.play();
+            player.style.backgroundPosition="74px 0px";
+            id=setInterval(function(){
+                var currenttime=parseInt(mymusic.currentTime);
+                btn.style.left=330/sumtime*currenttime+"px";
+                pro.style.width=330/sumtime*currenttime+"px";
+                if(currenttime<60){
+                    currenttime=currenttime<10?"0"+currenttime:currenttime;
+                    time.innerHTML="00:"+currenttime;
+                }else{
+                    var minute=parseInt(currenttime/60);
+                    var second=currenttime%60;
+                    second=second<10?"0"+second:second;
+                    time.innerHTML="0"+minute+":"+second;
+                }
+            },1000)
+        }
+        else{
+            mymusic.pause();
+            player.style.backgroundPosition="170px 0px";
+            clearInterval(id);
+        }
+        num++;
+    }
+    sound.onclick=function(){
+        if(count%2==1){
+            mymusic.muted="true"
+        }
+        else{
+            mymusic.muted=!"true";
+        }
+        count++;
+    }
+</script>
+</html>

@@ -1,0 +1,428 @@
+.nav{
+    background:black;
+    display:flex;
+    height:60px;
+    justify-content:space-around;
+}
+.navleft{
+    display:flex;
+    justify-content:space-around;
+    flex-grow:1
+}
+.navleft div{
+    display:flex;
+    justify-content:space-around;
+    flex-grow:1;
+}
+.navleft span{
+    color:white;
+    font-size:17px;
+    line-height:60px;
+}
+.navcenter{
+    display:flex;
+    justify-content:space-around;
+    flex-grow:1
+}
+.navcenter span{
+    color:white;
+    font-size:15px;
+    line-height:60px;
+    flex-grow:1;
+}
+.navcenter img{
+    width:15px;
+    height:15px;
+    overflow:hidden;
+    background-image:url(./images/2.jpg);
+    background-position:100px -26px;
+    align-self:center;
+}
+.navright{
+    display:flex;
+    justify-content:space-around;
+    flex-grow:1;
+}
+.navright div{
+    color:white;
+    font-size:16px;
+    line-height:60px;
+}
+.search{
+    display:flex;
+    height:30px;
+    margin-right:5px;
+    align-self:center;
+    flex-grow:1;
+    background-image:url(./images/4.jpg);
+    background-size:218px 30px;
+}
+.search p{
+    height:30px;
+    line-height:30px;
+    color:gray ;
+    font-size:13px;
+    text-align:center;
+    margin-top:-2px;
+    margin-left:10px;
+}
+.cen{
+    margin-top:50px;
+    position:relative;
+    height:900px;
+}
+.lyric{
+    width:800px;
+    text-align:center;
+    display:inline-block;
+    position:relative;
+}
+.lyric span{
+    color:orange;
+}
+.lyric img{
+    margin-left:5px;
+    margin-bottom:0px;
+    margin-right:3px;
+}
+.song{
+    width:300px;
+    display:inline-block;
+    position:absolute;
+    top:50px;
+    left:900px;
+}
+.song>img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    animation:animation1 5s linear infinite;
+}
+@keyframes animation1{
+    0%{
+        transform:rotete(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+#player{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    display:inline-block;
+    background-image:url(./images/6.jpg);
+    background-position:170px 0px;
+
+    /* background-position:74px 0px; */
+    /* background-position: 74px 48px; */
+    background-color:#d3d0d0;
+    position:absolute;
+    top:330px;
+    left:-100px;
+}
+#player:hover{
+    background-position:120px 0px;
+}
+#probar{
+    width:330px;
+    background:lightgrey;
+    height:4px;
+    display:inline-block;
+    position:absolute;
+    top:350px;
+    left:-45px;
+}
+#probar #wp_pro{
+    width:0;
+    height:4px;
+    background:orange;
+}
+#probar #wp_btn{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:orange;
+    position:absolute;
+    top:-3px;
+}
+#time{
+    width:50px;
+    height:50px;
+    display:inline-block;
+    position:absolute;
+    top:325px;
+    left:300px;
+}
+#sound{
+    width:25px;
+    height:25px;
+    display:inline-block;
+    background-image:url(./images/6.jpg);
+    background-position:-40px 0px;
+    position:absolute;
+    top:340px;
+    left:350px;
+}
+.download{
+    width:200px;
+    height:40px;
+    border-radius:10%;
+    position:absolute;
+    top:400px;
+    background-image:url(./images/6.jpg);
+    background-position:0px 40px;
+}
+.download div{
+    width:18px;
+    height:18px;
+    position:absolute;
+    top:10px;
+    left:25px;
+    background-image:url(./images/6.jpg);
+    background-position:0px 0px;
+}
+.download span{
+    position:absolute;
+    top:10px;
+    left:50px;
+}
+.figure{
+    width:300px;
+    height:100px;
+    position:absolute;
+    top:500px;
+    left:-150px;
+}
+.figure img{
+    width:80px;
+    height:80px;
+    display:inline-block;
+}
+.figure div{
+    display:inline-block;
+    background-image:url(./images/showAdBg.jpg);
+    width:250px;
+    height:55px;
+    position:absolute;
+    top:10px;
+    left:90px;
+}
+.figure .figurename{
+    width:200px;
+    height:20px;
+    font-size:14px;
+    color:grey;
+    position:absolute;
+    top:-10px;
+    left:30px;
+}
+.figure div img{
+    width:20px;
+    height:20px;
+    display:inline-block;
+    position:absolute;
+    top:30px;
+    left:30px;
+}
+.figure .songname{
+    font-size:14px;
+    position:absolute;
+    top:15px;
+    left:60px;
+}
+.figure div a{
+    font-size:12px;
+    color:indigo;
+    position:absolute;
+    top:30px;
+    left:200px;
+}
+.bottom{
+    width:1000px;
+    position:relative;
+}
+.bottomone{
+    width:1000px;
+    height:300px;
+    margin-left:100px;
+    position:relative;
+}
+.comment{
+    width:40px;
+    height:40px;
+    font-size:15px;
+    line-height:50px;
+    display:inline-block;
+    position:absolute;
+    top:-45px;
+    left:10px;
+}
+.count{
+    font-size:10px;
+    position:absolute;
+    top:-25px;
+    left:60px;
+}
+.bottomone img{
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:30px;
+    left:15px;
+}
+.bottomone input{
+    width:800px;
+    height:100px;
+    position:absolute;
+    top:30px;
+    left:140px;
+}
+.bottomone .already{
+    font-size:10px;
+    position:absolute;
+    top:160px;
+    left:790px;
+}
+.bottomone button{
+    font-size:15px;
+    color:white;
+    border-color:white;
+    background:orange;
+    width:80px;
+    height:30px;
+    position:absolute;
+    top:150px;
+    left:870px;
+}
+.bottomtwo{
+    width:1000px;
+    margin-left:120px;
+    position:relative;
+}
+.bottomtwo .wondcom{
+    font-size:15px;
+    margin-left:20px;
+}
+.firstpag{
+    width:1000px;
+    height:450px;
+}
+.one{
+    width:1000px;
+    height:150px;
+    position:relative;
+}
+.one .head{
+    width:100px;
+    height:100px;
+    margin-top:10px;
+    margin-left:20px;
+}
+.one .name{
+    font-size:15px;
+    color:orange;
+    position:absolute;
+    top:10px;
+    left:140px;
+}
+.one .share{
+    font-size:12px;
+    position:absolute;
+    top:0px;
+    left:950px;
+    color:gray;
+}
+.one .replay{
+    font-size:14px;
+    position:absolute;
+    top:120px;
+    left:950px;
+    color:gray;
+}
+.one .content{
+    width:800px;
+    height:120px;
+    font-size:16px;
+    position:absolute;
+    top:40px;
+    left:150px;
+}
+.one .timer{
+    width:500px;
+    height:20px;
+    font-size:14px;
+    color:grey;
+    position:absolute;
+    top:80px;
+    left:150px;
+}
+.one .counter{
+    width:20px;
+    height:20px;
+    font-size:13px;
+    color:gray;
+    position:absolute;
+    top:122px;
+    left:890px;
+}
+.one .like{
+    width:18px;
+    height:18px;
+    position:absolute;
+    top:120px;
+    left:922px;
+}
+.one .del{
+    font-size:13px;
+    color:gray;
+    width:40px;
+    height:20px;
+    position:absolute;
+    top:110px;
+    left:850px;
+}
+
+.bepag{
+    width:1000px;
+    height:450px;
+    position:absolute;
+    top:80px;
+    left:150px;
+    display:none;
+}
+.bepag .two{
+    width:1000px;
+    height:150px;
+    position:relative;
+}
+.bepag .timer2{
+    color:gray;
+    font-size:14px;
+    position:absolute;
+    top:40px;
+}
+.bottomthree{
+    width:300px;
+    height:50px;
+    margin-left:450px;
+}
+.bottomthree p{
+    width:30px;
+    height:30px;
+    font-size:15px;
+    display:inline-block;
+    background:hsl(0, 5%, 85%);
+    border-radius:50%;
+    line-height:30px;
+    text-align:center;
+    margin:2px;
+}
+.bottomthree p:nth-child(2){
+    background:rgb(255, 165, 0);
+    color:white;
+}
+.bottomthree p:hover{
+    background:darkorange;
+}
